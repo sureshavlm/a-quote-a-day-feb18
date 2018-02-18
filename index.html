@@ -1,0 +1,23 @@
+<html>
+
+	
+	<body>
+		<h1>A Quote a day</h1>
+
+		<h1 id="quote"></h1>
+
+		<script>
+				var quotes = [
+				"I love you the more in that I believe you had liked me for my own sake and for nothing else.",
+				"But man is not made for defeat. A man can be destroyed but not defeated.",
+				"When you reach the end of your rope, tie a knot in it and hang on.",
+				"You cannot shake hands with a clenched fist.",
+				"Let us sacrifice our today so that our children can have a better tomorrow."];
+
+				var randomNum = Math.floor((Math.random() * 5) + 1);
+
+				document.getElementById("quote").innerHTML = quotes[randomNum - 1];
+				
+		</script>
+	</body>
+</html>
